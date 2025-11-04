@@ -16,6 +16,6 @@ resource "aws_s3_bucket" "demo_bucket" {
 }
 
 resource "aws_instance" "demo_ec2" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-0bdd88bd06d16ba03"
   instance_type = "t2.micro"
 }
